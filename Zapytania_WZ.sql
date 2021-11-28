@@ -17,4 +17,5 @@ where miejsce < 10
 
 select * 
 from wyniki_zawodow
-where komentarz is null
+where komentarz is null or komentarz = ''
+
