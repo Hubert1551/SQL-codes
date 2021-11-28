@@ -14,3 +14,7 @@ where wz.lokalizacja_zawodow similar to '[A-H]%'
 select upper(lokalizacja_zawodow), miejsce, dystans
 from wyniki_zawodow 
 where miejsce < 10
+
+select * 
+from wyniki_zawodow
+where komentarz is null
